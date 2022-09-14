@@ -18,8 +18,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      #- name: Select Xcode
-      #  run: sudo xcode-select -switch /Applications/Xcode_14.0.app
+      - name: Select Xcode
+        run: sudo xcode-select -switch /Applications/Xcode_14.0.app
 
       # Runs a set of commands using the runners shell
       - name: Xcode version
