@@ -12,7 +12,7 @@ public class URLSessionHTTPClient: HTTPClient {
 
     public init(session: URLSession = .shared) {
         self.session = session
-    }
+    } 
     
     private struct UnexpectedValueRepresentation: Error {}
 
